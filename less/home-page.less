@@ -1,4 +1,29 @@
 // Home Content
+.top{
+  background-color: #f4f4f4;
+  padding: 1% 16% .5% 16%;
+
+  @media @phone{
+    width: 100%;
+  }
+  @keyframes pop-in {
+    0%  {
+      opacity: 0;
+      transform: translateY(-4rem) scale(.8);
+    }
+    100%  {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  h1{
+    .bodystyle2();
+    .h1();
+    display: flex;
+    justify-content: center;
+    animation: pop-in .6s ease-out forwards;
+  }
+}
 
 .home {
 
