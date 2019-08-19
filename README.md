@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive web design is different from responsive design in that there isn't one layout that always changes. Instead, there are several distinct layouts for multiple screen sizes. And the layout used depends on the screen size used.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+A mobile first design is one that was built to be used on a cell phone for example. Widths, font sizes etc. were designed with the smaller screen in mind. Mobile apps come to mind when thinking of a mobile first design. In scaling up to a desktop, @media (min-width:””) is used in a mobile first. For desktop first, settings for elements are built to fit the larger computer screen. When scaling down to mobile, @media(max-width:””) is used when the site is designed desktop first.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Setting the font-size: 62.5% in html, will scale the sizes of font throughout your code css. As the user zooms in on your site, the font will increase in response. Likewise, if they zoom out, the font will respond in kind.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+It can make your CSS much cleaner and easier to read for the next developer. It also makes it easier and quicker for you to produce the results you’d like in your site. Preprocessing will help you start applying DRY by keeping you from repeating the same code multiple times.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Mixins are my favorite as it let's you repeat code. I think I understand preprocessing pretty well. I just need to practise using it more.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
